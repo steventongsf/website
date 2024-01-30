@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html {
+        background: #fcfcfc;
+      }
+      .nav {
+        display: flex;
+        flex-flow: wrap;
+        margin: 0 auto;
+        max-width: 1920px;
+        width: 100%;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+      }
+      .nav_menuitem {
+        border-bottom: 2px solid transparent;
+        color: #111;
+        flex: 1 1 auto;
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 6px 8px;
+      }
+      .event_title {
+        color: #111;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: larger;
+      }
+      .event_venue {
+        color: #111;
+        text-decoration: none;
+        font-weight: normal;
+        font-style: italic;
+      }
+      .event_time {
+        color: #111;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: normal;
+      }
+      .event_card {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #fff;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 16px;
+        width: 300px;
+      }
+      .column {
+        float: left;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .event_date {
+        padding: 10px;
+        font-weight: bold;
+        color: grey;
+      }
+    </style>
+    <title>SF Bay Area Music Events</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav"></nav>
+      <div class=""></div>
+      <nav class="nav">
+        <a href="#" class="nav_menuitem">Music Events</a>
+        <a href="#" class="nav_menuitem">Art Events</a>
+        <a href="#" class="nav_menuitem">Festivals</a>
+      </nav>
+    </header>
+    <div class="row">
+      <!--begin column-->
+      <div class="column">
+        <div style="padding-top: 10px; padding-bottom: 10px"></div>
+        <div class="event_date">Tuesday January 30, 2024</div>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">The Scorpions</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">Led Zeppelin</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+      </div>
+      <!--end column-->
+      <!--begin column-->
+      <div class="column">
+        <div style="padding-top: 10px; padding-bottom: 10px"></div>
+        <div class="event_date">Wednesday January 31, 2024</div>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">Van Halen</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">The Who</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+      </div>
+      <!--end column-->
+      <!--begin column-->
+      <div class="column">
+        <div style="padding-top: 10px; padding-bottom: 10px"></div>
+        <div class="event_date">Thursday February 1, 2024</div>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">Loretta Lynn</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">Johnny Cash</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+      </div>
+      <!--end column-->
+      <!--begin column-->
+      <div class="column">
+        <div style="padding-top: 10px; padding-bottom: 10px"></div>
+        <div class="event_date">Friday February 2, 2024</div>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">David Bowie</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+        <section class="event_card">
+          <section>
+            <article>
+              <div>
+                <a class="event_title">The Kinks</a>
+              </div>
+              <div>
+                <a class="event_time">Doors: 7:00pm/Show: 8:00pm</a>
+              </div>
+              <div>
+                <a class="event_venue">Sweetwater Music Hall</a>
+              </div>
+              <div>
+                <a class="event_venue">Mill Valley, Ca</a>
+              </div>
+            </article>
+          </section>
+        </section>
+      </div>
+      <!--end column-->
+    </div>
+  </body>
+</html>
